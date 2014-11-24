@@ -24,5 +24,3 @@ module.exports = function(bool) {
   }, console.log)
 
 }
-
-//curl https://api.spark.io/v1/devices/55ff6b065075555326281887/relay   -d access_token=8f4a33baa26bec787287078b3231b4409ecbd7cd   -d params=OFF
