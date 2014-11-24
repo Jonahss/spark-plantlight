@@ -1,9 +1,10 @@
 var request = require('request')
+var conf = require('./vars.json')
 
 var api_endpoint = "https://api.spark.io/v1/devices/"
 
-var device = process.env.SPARK_ID
-var key = process.env.SPARK_ACCESS_KEY
+var device = conf.id || process.env.SPARK_ID
+var key = conf.key || process.env.SPARK_ACCESS_KEY
 
 console.log(device, key)
 
