@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/jonahss/spark-plantlight/issues"
   },
-  "homepage": "https://github.com/jonahss/spark-plantlight"
+  "homepage": "https://github.com/jonahss/spark-plantlight",
+  "dependencies": {
+    "request": "^2.48.0",
+    "suncalc": "^1.6.0"
+  }
 }
