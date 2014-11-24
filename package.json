@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jonahss/spark-plantlight",
   "dependencies": {
+    "forever": "^0.13.0",
     "request": "^2.48.0",
     "suncalc": "^1.6.0"
   }
