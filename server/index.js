@@ -1,4 +1,4 @@
-var plantlight = require('./plantlight.js')
+var plantlight = require('../plantlight.js')
 var SunCalc = require('suncalc')
 
 var lightCondition = function() {
@@ -25,5 +25,7 @@ var loop = function() {
 
   setImmediate(loop)
 }
+
+//plantlight(process.argv[2] == '1');
 
 loop()
